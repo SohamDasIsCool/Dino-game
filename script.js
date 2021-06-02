@@ -37,7 +37,16 @@ var isAlive=setInterval(function() {
     }else{
         counter++;
         document.getElementById("scoreSpan").innerHTML ="Your score:"+Math.floor(counter/100);
+        r=Math.floor(Math.random()*3);
+        if(r==0{
         cactus.style.animation ="swipe infinite linear 1s";
+           }
+        if(r==1){
+            cactus.style.animation ="swipe infinite linear 0.9s";
+        }
+        else{
+            cactus.style.animation ="swipe infinite linear 1.1s";
+        }
     }
 },10);
 document.body.onkeydown = function(e){
