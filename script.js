@@ -29,7 +29,7 @@ setInterval(function(){
 var isAlive=setInterval(function() {
     dinoTop=parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
     cactusleft=parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
-    if(cactusleft<40 && cactusleft>0 && dinoTop>=140){
+    if(cactusleft<40 && cactusleft>0 && dinoTop>=150){
         cactus.style.animation = "none";
         alert("Game Over. score: "+Math.floor(counter/100));
         counter=0;
