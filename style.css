@@ -7,7 +7,7 @@
 #dino{
     width:50px;
     height:50px;
-    background-image:url(dino.PNG);
+    background-image:url(Webp.net-gifmaker.png);
     background-size: 50px;
     position:relative;
     top:150px;
@@ -24,13 +24,10 @@
         top:150px;
     }
     25%{
-        top:125px;
-    }
-    35%{
-        top:100px;
+        top:110px;
     }
     50%{
-        top:75px;
+        top:80px;
     }
     60%{
         top:85px;
@@ -66,4 +63,12 @@
 button{
     background-color: blue;
     color:whitesmoke;
+}
+#ground{
+    width:610px;
+    height:5px;
+    top:107px;
+    right:2px;
+    position:relative;
+    background-image: url(gr.png);
 }
