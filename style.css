@@ -24,10 +24,13 @@
         top:150px;
     }
     25%{
-        top:110px;
+        top:125px;
+    }
+    35%{
+        top:100px;
     }
     50%{
-        top:80px;
+        top:75px;
     }
     60%{
         top:85px;
