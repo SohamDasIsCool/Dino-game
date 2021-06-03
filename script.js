@@ -52,18 +52,6 @@ if(x==0){
   else{
   document.getElementById("cactus").src = "tr.png";
   }
-  r=Math.floor(Math.random()*3);
-        if(r==0){
-        cactus.style.animation ="swipe infinite linear 1s";
-           }
-        if(r==1){
-            cactus.style.animation ="swipe infinite linear 0.95s";
-        }
-        else{
-            cactus.style.animation ="swipe infinite linear 1.05s";
-        }
-    },1000
-);
 document.body.onkeydown = function(e){
     if(e.keyCode == 32){
         jump();
