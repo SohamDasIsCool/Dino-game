@@ -51,7 +51,7 @@ if(x==0){
   }
   else{
   document.getElementById("cactus").src = "tr.png";
-  }
+  },1000);
 document.body.onkeydown = function(e){
     if(e.keyCode == 32){
         jump();
